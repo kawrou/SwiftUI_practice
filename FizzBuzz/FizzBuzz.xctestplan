@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "D08D6569-88B2-43BC-B0F1-6A2D80E42021",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:FizzBuzz.xcodeproj",
+      "identifier" : "EA0ABAA62B7BC62C008474CE",
+      "name" : "FizzBuzz"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:FizzBuzz.xcodeproj",
+        "identifier" : "EA0ABAB62B7BC63B008474CE",
+        "name" : "FizzBuzzTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:FizzBuzz.xcodeproj",
+        "identifier" : "EA0ABAC02B7BC63B008474CE",
+        "name" : "FizzBuzzUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
